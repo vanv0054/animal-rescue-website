@@ -27,7 +27,16 @@ nav {
 
 nav a {
   text-decoration: none;
+  background-color: #4b51e2;
+  border: solid 2px #fff;
+  border-radius: 5px;
+  color: #fff;
   font-family: 'Muli', sans-serif;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #4b51e2;
 }
 
 nav ul {
@@ -58,20 +67,6 @@ footer {
 
 p {
   font-family: 'Muli', sans-serif;
-}
-
-.btn-ghost {
-  background-color: #4b51e2;
-  border: solid 2px #fff;
-  border-radius: 5px;
-  color: #fff;
-}
-
-.btn-ghost:hover {
-  background-color: #fff;
-  color: #4b51e2;
-  border: solid 2px #fff;
-  border-radius: 5px;
 }
 
 @media only screen and (min-width: 60em) {
