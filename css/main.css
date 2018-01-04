@@ -27,11 +27,6 @@ nav {
 
 nav a {
   text-decoration: none;
-  background-color: #4b51e2;
-  border: solid 2px #fff;
-  border-radius: 5px;
-  color: #fff;
-  font-family: 'Muli', sans-serif;
 }
 
 a:hover {
@@ -67,6 +62,21 @@ footer {
 
 p {
   font-family: 'Muli', sans-serif;
+}
+
+.btn-ghost {
+  background-color: #4b51e2;
+  border: solid 2px #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+}
+
+.btn-ghost:hover {
+  background-color: #fff;
+  border: solid 2px #fff;
+  border-radius: 5px;
+  color: #4b51e2;
 }
 
 @media only screen and (min-width: 60em) {
