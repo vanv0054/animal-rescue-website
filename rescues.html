@@ -12,13 +12,18 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to main content</a></li>
+  </ul>
+
   <section class="push">
 
     <header class="masthead grid grid-middle island-1-2">
       <div class="logo unit xs-1 s-1 m-1 l-1-4">
         <h1 class="peta push-0 gutter-1-4 pad-b-1-4 pad-t-1-4">LOYAL RESCUE</h1>
       </div>
-      <nav class="nav unit xs-1 s-1 m-1 l-3-4">
+      <nav class="nav unit xs-1 s-1 m-1 l-3-4" role="navigation" id="nav" tabindex="0">
         <ul class="list-group-inline push-0">
           <li>
             <a class="block text-center gutter pad-t-1-4 pad-b-1-4 btn btn-ghost" href="index.html">Home</a>
@@ -37,7 +42,7 @@
 
   <h2 class="zetta text-center">Available Rescues</h2>
 
-  <main class="grid">
+  <main class="grid" role="main" id="main" tabindex="0">
 
     <div class="unit xs-1 s-1 m-1 l-1-4 push">
       <figure class="gutter-1-4 push-0">
