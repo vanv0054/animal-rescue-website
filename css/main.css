@@ -103,6 +103,11 @@ fieldset {
   border: none;
 }
 
+.apply:hover {
+  background-color: #ef1111;
+  color: #fff;
+}
+
 @media only screen and (min-width: 36em) {
 
   .space-right {
