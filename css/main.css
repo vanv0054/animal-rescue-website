@@ -91,6 +91,30 @@ p {
   color: #4b51e2;
 }
 
+.form {
+  font-family: "Muli", sans-serif;
+}
+
+.head {
+  color: #ef1111;
+}
+
+fieldset {
+  border: none;
+}
+
+
+@media only screen and (min-width: 36em) {
+
+  .space-right {
+    padding-right: .5em;
+  }
+
+  .space-left {
+    padding-left: .5em;
+  }
+
+}
 @media only screen and (min-width: 60em) {
 
   .logo {
