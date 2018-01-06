@@ -40,155 +40,159 @@
 
   </section>
 
-  <form class="gutter-1-2 max-length form" method="post" action="#">
+  <main role="main">
 
-    <fieldset>
+    <form class="gutter-1-2 max-length form" method="post" action="#">
 
-      <legend class="peta head pad-t push-1-2">About You</legend>
-      <div class="grid">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
-          <label for="name">Full name</label>
-          <input class="push" id="name" type="text" name="..." required>
+      <fieldset>
+
+        <legend class="peta head pad-t push-1-2">About You</legend>
+        <div class="grid">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
+            <label for="name">Full name</label>
+            <input class="push" id="name" type="text" name="..." required>
+          </div>
+
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
+            <label for="date-of-birth">Date of Birth</label>
+            <input class="push" type="date" id="date-of-birth">
+          </div>
+
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
+            <label for="address">Address</label>
+            <input class="push" id="address" type="text" name="...">
+          </div>
+
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
+            <label for="province">Province</label>
+            <select class="push" id="province" name="...">
+              <option value="">Select a Province</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland and Labrador</option>
+              <option>Nova Scotia</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Quebec</option>
+              <option>Saskatchewan</option>
+            </select>
+          </div>
+
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
+            <label for="city">City</label>
+            <input class="push" id="city" type="text" name="...">
+          </div>
+
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
+            <label for="postal-code">Postal Code</label>
+            <input class="push" id="postal-code" type="text" name="...">
+          </div>
+
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
+            <label for="email">Email</label>
+            <input class="push" id="email" type="email" placeholder="me@me.com" name="..." required>
+          </div>
+
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
+            <label for="children">Number of Children</label>
+            <input class="push" id="children" type="text" name="...">
+          </div>
+
+        </div>
+      </fieldset>
+
+      <fieldset>
+
+        <legend></legend>
+
+        <div class="push">
+          <p class="mega push bold">Do you or anyone else have allergies?</p>
+          <input type="radio" id="yes" name="...">
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="...">
+          <label class="gutter" for="no">No</label>
         </div>
 
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
-          <label for="date-of-birth">Date of Birth</label>
-          <input class="push" type="date" id="date-of-birth">
-        </div>
+      </fieldset>
 
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
-          <label for="address">Address</label>
-          <input class="push" id="address" type="text" name="...">
-        </div>
+      <fieldset>
 
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
-          <label for="province">Province</label>
-          <select class="push" id="province" name="...">
-            <option value="">Select a Province</option>
-            <option>Alberta</option>
-            <option>British Columbia</option>
-            <option>Manitoba</option>
-            <option>New Brunswick</option>
-            <option>Newfoundland and Labrador</option>
-            <option>Nova Scotia</option>
-            <option>Ontario</option>
-            <option>Prince Edward Island</option>
-            <option>Quebec</option>
-            <option>Saskatchewan</option>
-          </select>
-        </div>
+        <legend class="mega">If yes for question above please explain the allergy situation.</legend>
+        <label for="allergies">
+        </label>
+        <textarea class="push" id="allergies"></textarea>
 
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
-          <label for="city">City</label>
-          <input class="push" id="city" type="text" name="...">
-        </div>
+      </fieldset>
 
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
-          <label for="postal-code">Postal Code</label>
-          <input class="push" id="postal-code" type="text" name="...">
-        </div>
+      <fieldset>
 
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
-          <label for="email">Email</label>
-          <input class="push" id="email" type="email" placeholder="me@me.com" name="..." required>
-        </div>
+        <legend class="peta head push-1-2">Pet Preferences</legend>
+        <div class="grid">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
+            <label for="age">Age</label>
+            <input class="push" id="age" type="text" name="...">
+          </div>
 
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
-          <label for="children">Number of Children</label>
-          <input class="push" id="children" type="text" name="...">
-        </div>
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
+            <label for="gender">Gender</label>
+            <select class="push" id="gender" name="...">
+              <option value="">Select a Gender</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
 
-      </div>
-    </fieldset>
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
+            <label for="breed">Breed</label>
+            <input class="push" id="breed" type="text" name="...">
+          </div>
 
-    <fieldset>
-
-      <legend></legend>
-
-      <div class="push">
-        <p class="mega push bold">Do you or anyone else have allergies?</p>
-        <input type="radio" id="yes" name="...">
-        <label for="yes">Yes</label>
-        <input type="radio" id="no" name="...">
-        <label class="gutter" for="no">No</label>
-      </div>
-
-    </fieldset>
-
-    <fieldset>
-
-      <legend class="mega">If yes for question above please explain the allergy situation.</legend>
-      <label for="allergies">
-      </label>
-      <textarea class="push" id="allergies"></textarea>
-
-    </fieldset>
-
-    <fieldset>
-
-      <legend class="peta head push-1-2">Pet Preferences</legend>
-      <div class="grid">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
-          <label for="age">Age</label>
-          <input class="push" id="age" type="text" name="...">
-        </div>
-
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
-          <label for="gender">Gender</label>
-          <select class="push" id="gender" name="...">
-            <option value="">Select a Gender</option>
-            <option>Male</option>
-            <option>Female</option>
-          </select>
-        </div>
-
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
-          <label for="breed">Breed</label>
-          <input class="push" id="breed" type="text" name="...">
-        </div>
-
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
-          <label for="coat">Coat</label>
-          <select class="push" id="coat" name="...">
-            <option value="">Select a Coat</option>
-            <option>Smooth</option>
-            <option>Short</option>
-            <option>Medium</option>
-            <option>Long</option>
-          </select>
-        </div>
-      </div>
-    </fieldset>
-
-    <fieldset>
-
-      <legend></legend>
-
-      <p class="mega push">Size</p>
-      <div class="grid">
-        <div class="push unit unit-xs-1 unit-s-1 unit-m-1-3">
-          <div class="push-1-4">
-            <input type="checkbox" id="small" name="...">
-            <label for="small">Small</label>
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
+            <label for="coat">Coat</label>
+            <select class="push" id="coat" name="...">
+              <option value="">Select a Coat</option>
+              <option>Smooth</option>
+              <option>Short</option>
+              <option>Medium</option>
+              <option>Long</option>
+            </select>
           </div>
         </div>
-        <div class="push unit unit-xs-1 unit-s-1 unit-m-1-3">
-          <div class="push-1-4">
-            <input type="checkbox" id="medium" name="...">
-            <label for="medium">Medium</label>
+      </fieldset>
+
+      <fieldset>
+
+        <legend></legend>
+
+        <p class="mega push">Size</p>
+        <div class="grid">
+          <div class="push unit unit-xs-1 unit-s-1 unit-m-1-3">
+            <div class="push-1-4">
+              <input type="checkbox" id="small" name="...">
+              <label for="small">Small</label>
+            </div>
+          </div>
+          <div class="push unit unit-xs-1 unit-s-1 unit-m-1-3">
+            <div class="push-1-4">
+              <input type="checkbox" id="medium" name="...">
+              <label for="medium">Medium</label>
+            </div>
+          </div>
+          <div class="push unit unit-xs-1 unit-s-1 unit-m-1-3">
+            <div class="push-1-4">
+              <input type="checkbox" id="large" name="...">
+              <label for="large">Large</label>
+            </div>
           </div>
         </div>
-        <div class="push unit unit-xs-1 unit-s-1 unit-m-1-3">
-          <div class="push-1-4">
-            <input type="checkbox" id="large" name="...">
-            <label for="large">Large</label>
-          </div>
-        </div>
-      </div>
 
-    </fieldset>
+      </fieldset>
 
-  </form>
+    </form>
+
+  </main>
 
   <footer role="contentinfo">
     <p class="foot island-1-2 push-0">Loyal Rescue © 2005-2017- All Rights Reserved</p>
