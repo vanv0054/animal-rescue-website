@@ -64,6 +64,21 @@ p {
   font-family: Noto, serif;
 }
 
+.btn {
+  background-color: #4b51e2;
+  border: solid 2px #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Muli, sans-serif;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border: solid 2px #fff;
+  border-radius: 5px;
+  color: #4b51e2;
+}
+
 .btn-ghost {
   background-color: #4b51e2;
   border: solid 2px #fff;
